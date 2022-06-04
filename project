@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title>BitMarket</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="/uploads/2021/03/logo1_0_1615899136.svg">
+            <a class="button" href="">Знижки</a>
+        </header>
+        <nav>
+            <a class="nav-link" href="">Каталог</a>
+            <a class="nav-link" href="">Оптом</a>
+            <a class="nav-link" href="">Доставка</a>
+            <a class="nav-link" href="">Повернення товару</a>
+        </nav>
+        <main>
+            <h1>Професіонали радять</h1>
+            <section class="info">
+                <article class="post">
+                    <h2>Лептоп для відпочинку</h2>
+                    <img class="post-img" src="/uploads/2021/02/notebook-405755_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p class="post-text">Samsung V145-S</p>
+                    <a class="article-but" href="">Докладніше</a>
+                </article>
+                <article class="post">
+                    <h2>Як вибрати навушники</h2>
+                    <img class="post-img" src="/uploads/2021/02/music-1813100_1280_0_1613586010.png" width="330px" height="300px"/>
+                    <p class="post-text">Поговоримо про новинки</p>
+                    <a class="article-but" href="">Докладніше</a>
+                </article>
+                <article class="post">
+                    <h2>Телефон мрії</h2>
+                    <img class="post-img" src="/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg" width="400px" height="300px"/>
+                    <p class="post-text">Apple iphone 13</p>
+                    <a class="article-but" href="">Докладніше</a>
+                </article>
+                <article class="post">
+                    <h2>Техніка для всього</h2>
+                    <img class="post-img" src="/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg" width="400px" height="300px"/>
+                    <p class="post-text">І цілого світу мало...</p>
+                    <a class="article-but" href="">Докладніше</a>
+                </article>
+            </section>
+            <aside class="social_message">
+                <p><b>Напиши – отримай промокод!</b></p>
+                <a class="social" href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="30px" height="30px"></a>
+                <a class="social" href=""><img src="/uploads/2021/02/Group%201_0_1613586391.png" width="30px" height="30px"></a>
+                <a class="social" href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="30px" height="30px"></a>
+            </aside>
+            <img class="full-image" src="/uploads/2021/02/mobile-phone-1419275_1920_0_1613586010.jpg" width="100%" min-height="270"/>
+        </main>
+        <footer>
+            <div class="contacts">
+                <p class="footer-text"><span class="address">Адреса: </span>місто Технологічне,<br/> проспект Сучасний, 29/2</p>
+                <p class="footer-text"><span class="tel">Телефон:</span> 4138-564</p>
+            </div>
+            <div class="footer-logo">
+                <img src="/uploads/2021/03/logo2_0_1615898903.svg"/>
+            </div>
+        </footer>
+    </body>
+</html>
+                                                                        CSS
+ body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.social_message {
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    background-color: lightblue;
+    font-size: 15px;
+    border: 3px double blue;
+}
+
+h2::before {
+    content: url(https://learn.logikaschool.com/uploads/2021/03/tag-151102.svg);
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+h1::before {
+    content: url(https://learn.logikaschool.com/uploads/2021/03/tag-151102.svg);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+h1::after {
+    content: url(https://learn.logikaschool.com/uploads/2021/03/tag-151102.svg);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+.tel::after {
+    content: url(https://cdn-icons-png.flaticon.com/512/244/244812.png);
+    width: 30px;
+    height: 30px;
+}
+
+.tel:hover::after {
+    content: url(https://cdn-icons-png.flaticon.com/512/86/86663.png);
+    width: 30px;
+    height: 30px;
+}
+
+.post:hover {
+    background-color: lightblue;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    font-weight: bolder;
+}
+
+.button:hover {
+    background-color: white;
+    color: red;
+}
